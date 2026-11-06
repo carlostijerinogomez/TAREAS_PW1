@@ -1,0 +1,44 @@
+.rgb{
+    background-color: rgb(46, 196, 161);
+    color:rgb(167, 40, 167);
+
+}
+.rgb h3{
+    color:rgb(2,2,2);
+}
+
+.rgba{
+    background-color: rgba(219,70,70,0.17);
+    color: rgba(219,70,70,1);
+}
+
+.hex{
+    background-color: #00ff48;
+    color: #ba2e2e;
+}
+
+.hsl{
+    background-color: hsl(240, 49%, 53%);
+    color:hsl(59, 42%, 72%);
+}
+
+.hsla{
+    background-color: hsla(240,34%,53%,0.5);
+    color: hsla(240,34%,53%,0.5);
+}
+.black{
+    color:black;
+}
+.white{
+    color:white;
+    background-color: black;
+}
+.salmon{
+    color:salmon
+}
+.blue{
+    color:blue;
+}
+.lime{
+    color:lime;
+}
