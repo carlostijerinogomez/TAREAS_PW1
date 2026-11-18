@@ -1,0 +1,80 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family:'Courier New', Courier, monospace
+    padding: 0;
+    margin: 0;
+
+}
+
+/*Orden para los estilos de los estados de un enlace
+LVFA
+*/
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+    text-decoration: line-through;
+}
+
+a:focus{
+    background-color: #aa0000;
+    color:#0036aa
+}
+
+a:hover{
+    background-color: #0036aa;
+    color: white;
+    font-size: 25px;
+}
+a:active{
+    background-color: #aa0080;
+    color: white;
+}
+#encabezado{
+    background-color: #2951a7;
+    color: white;
+    font-size: 2em;
+}
+#encabezado h1{
+    text-shadow: 2px 2px 4px #1f1212;
+    text-align: center;
+    font-size: 2em;
+}
+
+#encabezado p{
+}
+
+.contenedor-enlaces{
+    border:2px dotted white;
+    background-color: #2951a7;
+}
+
+.enlaces h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #1f1212;
+}
+
+.enlaces p{
+    text-align: justify;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.enlaces ul{
+    border: 2px solid white;
+    padding-left:0;
+}
+
+.enlaces li{
+    border: 2px solid white;
+    list-style-type: circle;
+    margin: 5px;
+    list-style-position: inside;
+}
